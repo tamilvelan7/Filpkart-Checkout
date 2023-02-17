@@ -48,7 +48,7 @@ public class Flipkart extends Utils {
 		wait.until(ExpectedConditions.titleContains("Flipkart.com: Secure Payment"));
 		
 		if(driver.getTitle().contains("Flipkart.com: Secure Payment"))
-		driver.findElement(By.xpath("//div/input")).sendKeys("praveenkumar@gmail.com");
+		driver.findElement(By.xpath("//div/input")).sendKeys("email or phone number");
 		driver.findElement(By.tagName("button")).click();
 //		driver.quit();
 	}
